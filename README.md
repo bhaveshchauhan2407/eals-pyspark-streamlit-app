@@ -224,6 +224,7 @@ removed or new code being added without tests.
 - **A pinned CI runner** (`ubuntu-24.04`) rather than a moving `ubuntu-latest`.
 - **Deterministic data loading** and fixed random seeds, so the same settings
   give the same results.
+- **Used version tag:** Git tag `v1.0.0` was used and kept intentionally same as Docker image `1.0.0`.
 - **Multi-platform image** Container is emulated so that it runs on both Intel/AMD and Apple Silicon.
 
 ## Credits
